@@ -10,8 +10,8 @@
 
 - **Tricahue roba tarjetas, claves de banca en línea y códigos de segundo factor** (SMS, BE Pass, coordenadas, clave dinámica) a usuarios chilenos.
 - **No es un sitio automático: hay un operador humano en vivo.** Ve lo que la víctima hace en tiempo real y le envía pantallas ("clave incorrecta", "ingresa el código que te llegó") hasta tener lo necesario para usar el código antes de que venza.
-- **Ha cambiado de señuelo al menos dos veces:** tiendas falsas de suplementos en redes sociales (desde marzo de 2026) y ofertas o renovaciones falsas de Entel, Movistar y WOM (desde agosto de 2026). Las dos terminan en una página de pago falsa con selector de bancos.
-- **Suma 34 sitios publicados** en este repositorio, sobre 6 marcas, casi todos en dominios desechables que rota cada pocos días.
+- **Ha cambiado de señuelo al menos dos veces:** tiendas falsas de suplementos en redes sociales (desde marzo de 2026, y siguen activas) y ofertas o renovaciones falsas de Entel, Movistar y WOM (desde julio de 2026). Las dos terminan en una página de pago falsa con selector de bancos.
+- **Se le conocen 68 sitios desde marzo de 2026**, casi todos en dominios desechables que rota cada pocos días. **63 están publicados** en este repositorio. Unos pocos quedan fuera a propósito, porque podrían afectar a terceros.
 - **Origen probable:** Chile (operador local), confianza alta. **Zona de operación:** indicios de actividad desde la Región del Biobío, confianza media.
 
 ## Cómo engaña a la víctima
@@ -22,6 +22,7 @@
   - **Transferencia** a cuentas de terceros, con un temporizador de "stock reservado" para meter prisa.
   - **Tarjeta**, que lleva a una página de pago falsa (ver el paso 2).
 - **Telcos falsas** (Entel, Movistar, WOM): renovación de equipo, oferta o recarga. El sitio imita un proceso de compra completo: eliges el teléfono y el plan, ingresas tu RUT, correo y dirección, y eliges la fecha de entrega. Así el sitio parece legítimo y, de paso, se queda con tus datos personales.
+- **Otras marcas, de forma puntual:** un portal de empleos y una empresa de envíos.
 
 **2. El pago falso.** Al pagar, la víctima llega a una página que imita una pasarela de pago o el pago **Compraquí de BancoEstado**, con un selector para "elegir tu banco": BancoEstado, Banco de Chile, Santander, BCI, Falabella, Itaú, Ripley, Scotiabank y otros. Cada banco tiene su propia copia de la página de ingreso y de la pantalla del segundo factor.
 
@@ -47,22 +48,26 @@ Cuando la víctima termina, el operador ya usó el código para entrar a su banc
 
 | Fecha | Qué pasó |
 |---|---|
-| **Marzo-mayo 2026** | Tiendas falsas de suplementos en redes sociales, con cobro por transferencia o por una página de pago falsa con selector de bancos. |
-| **5 ago 2026** | Primera tanda del señuelo de telcos: renovaciones de Movistar y pasarelas falsas genéricas (`tu-portal`, `tu-metodo`, `comercio-online`). |
-| **19-28 ago 2026** | Renovación de equipos Entel y primeros clones de **Compraquí** (`compra-qui`, `compraraqui`, `comprar-aqui`). Ofertas de Movistar en dominios `.cl`. |
+| **Marzo 2026** | Primeras páginas de pago falsas con selector de bancos, incluido un clon de **Compraquí**. |
+| **Marzo-octubre 2026** | Tiendas falsas de suplementos en redes sociales (al menos diez tiendas distintas), con cobro por transferencia o por la página de pago falsa. |
+| **Junio 2026** | Ola de pasarelas de pago falsas y clones de Compraquí en dominios desechables. |
+| **Julio 2026** | Aparece el señuelo de telcos: renovaciones falsas de Movistar y pasarelas genéricas (`tu-portal`, `tu-metodo`, `comercio-online`). |
+| **Agosto 2026** | Renovación de equipos Entel, más clones de Compraquí (`compra-qui`, `compraraqui`, `comprar-aqui`) y ofertas de Movistar en dominios `.cl`. |
 | **Septiembre 2026** | Más clones de Compraquí y de equipos Entel y Movistar; recargas falsas de WOM; un clon de pago para Banco de Chile. |
-| **Octubre 2026** | `mundo-entel`. |
+| **Octubre 2026** | `mundo-entel` y una nueva tienda falsa de suplementos, `suplestoop.cl`. |
 | **4-21 nov 2026** | Nueva ola de clones de Compraquí (`compremeaqui`, `aquicompre`, `comprameaqui`, `compraraqui`) y `portal-entel`. |
-| **24 nov 2026** | 3 sitios activos: `compraraqui.shop`, `portal-entel.online` y `recargas-wom.online`. |
+| **14-24 nov 2026** | La tienda `suplestoop.cl` se reconstruye con un checkout de pago falso propio y precios muy por debajo del mercado. |
+| **24 nov 2026** | 4 sitios activos: `compraraqui.shop`, `portal-entel.online`, `recargas-wom.online` y la tienda `suplestoop.cl`. |
 
 ## Marcas suplantadas
 
 | Marca | Sitios | Qué hace el sitio falso |
 |---|---|---|
-| [BancoEstado](../marcas/bancoestado/) | 15 | Pago Compraquí falso: clave, tarjeta y segundo factor |
-| [Movistar](../marcas/movistar/) | 8 | Renovación u oferta falsa de equipo |
-| [Entel](../marcas/entel/) | 5 | Renovación falsa de equipo |
-| Pasarelas de pago genéricas | 4 | Página de pago falsa con selector de bancos |
+| [BancoEstado](../marcas/bancoestado/) | 19 | Pago Compraquí falso: clave, tarjeta y segundo factor |
+| Pasarelas de pago genéricas | 19 | Página de pago falsa con selector de bancos |
+| [Movistar](../marcas/movistar/) | 11 | Renovación u oferta falsa de equipo |
+| [Entel](../marcas/entel/) | 6 | Renovación falsa de equipo |
+| [Tiendas falsas](../marcas/tiendas-falsas/) | 6 | Tienda de suplementos que cobra por transferencia o con un pago falso |
 | [Banco de Chile](../marcas/banco-de-chile/) | 1 | Clave y segundo factor |
 | [WOM](../marcas/wom/) | 1 | Recarga falsa |
 
@@ -103,7 +108,7 @@ A propósito, este informe no incluye:
 - nombres de personas o empresas, cuentas que reciben transferencias, perfiles de redes sociales ni números de contacto;
 - las fuentes de la evaluación geográfica;
 - datos de víctimas;
-- dominios de casos que siguen en manos de otras instituciones.
+- unos pocos dominios que podrían afectar a terceros (por ejemplo, porque llevan el nombre de una empresa).
 
 Si eres una institución afectada o investigas el caso, escríbenos por un *issue* y coordinamos el canal.
 
