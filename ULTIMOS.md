@@ -33,6 +33,7 @@ URLs desactivadas a propósito (`hxxps`, `[.]`). Para bloquear usa [`feeds/activ
 | 2026-11-05 | `teslurenlinea[.]adconga[.]com[.]mx` | Telsur (GTD) | pago de deuda falsa | caido |
 | 2026-11-05 | `aquicompre[.]store` | BancoEstado | credenciales bancarias | caido |
 | 2026-11-04 | `compremeaqui[.]shop` | BancoEstado | credenciales bancarias | caido |
+| 2026-10-13 | `suplestoop[.]cl` | Tiendas falsas (sin marca) | tienda falsa (señuelo) | 🔴 activo |
 | 2026-10-03 | `mundo-entel[.]online` | Entel | datos personales y pago | caido |
 | 2026-09-23 | `compreaqui[.]live` | BancoEstado | credenciales bancarias | caido |
 | 2026-09-22 | `webpay-comercio[.]online` | Banco de Chile | credenciales bancarias | caido |
@@ -42,15 +43,14 @@ URLs desactivadas a propósito (`hxxps`, `[.]`). Para bloquear usa [`feeds/activ
 | 2026-09-08 | `promocion-movistar[.]shop` | Movistar | datos personales y pago | caido |
 | 2026-09-07 | `compraqui-web[.]online` | BancoEstado | credenciales bancarias | caido |
 | 2026-09-04 | `compre-aqui[.]site` | BancoEstado | credenciales bancarias | caido |
+| 2026-09-02 | `compra-qui[.]site` | BancoEstado | credenciales bancarias | caido |
 | 2026-08-28 | `comprar-aqui[.]online` | BancoEstado | credenciales bancarias | caido |
 | 2026-08-25 | `portate-movistar[.]shop` | Movistar | datos personales y pago | caido |
 | 2026-08-25 | `equipo-movistar[.]online` | Movistar | datos personales y pago | caido |
 | 2026-08-24 | `tu-movistar[.]shop` | Movistar | datos personales y pago | caido |
 | 2026-08-24 | `compraraqui[.]store` | BancoEstado | credenciales bancarias | caido |
+| 2026-08-24 | `comprar-aqui[.]shop` | BancoEstado | credenciales bancarias | caido |
 | 2026-08-24 | `compra-qui[.]shop` | BancoEstado | credenciales bancarias | caido |
 | 2026-08-22 | `tu-comercio[.]online` | BancoEstado | credenciales bancarias | caido |
 | 2026-08-22 | `movistarofertchile[.]cl` | Movistar | datos personales y pago | caido |
 | 2026-08-22 | `entel-renueva[.]shop` | Entel | datos personales y pago | caido |
-| 2026-08-22 | `compremeaqui[.]online` | BancoEstado | credenciales bancarias | caido |
-| 2026-08-22 | `compra-qui[.]online` | BancoEstado | credenciales bancarias | caido |
-| 2026-08-22 | `comercios-verificacion[.]online` | BancoEstado | credenciales bancarias | caido |

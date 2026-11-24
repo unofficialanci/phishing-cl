@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--2aeef228-c08d-5f85-b08d-dba4dcfb1c76",
+  "id": "bundle--4b0d0158-591b-5448-828e-a2659058a290",
   "objects": [
     {
       "type": "identity",
@@ -713,6 +713,30 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--7abce2b1-4931-5ad4-957a-1f2b5c13fceb",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Tiendas falsas (sin marca): suplestoop.cl",
+      "description": "Sitio de phishing contra usuarios de Chile (tienda falsa (señuelo)). Estado al exportar: activo.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'suplestoop.cl']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-13T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "tiendas-falsas"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--4530691e-bc93-5578-9695-3a790c341803",
       "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
       "created": "2026-11-23T00:00:00.000Z",
@@ -929,6 +953,30 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--ebb802af-afac-56ea-b7c8-335b47be96a5",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing BancoEstado: compra-qui.site",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'compra-qui.site']",
+      "pattern_type": "stix",
+      "valid_from": "2026-09-02T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "bancoestado"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--ad6c4432-cda2-5a3f-bd13-3622aa83b65f",
       "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
       "created": "2026-11-23T00:00:00.000Z",
@@ -1035,6 +1083,30 @@
         "malicious-activity"
       ],
       "pattern": "[domain-name:value = 'compraraqui.store']",
+      "pattern_type": "stix",
+      "valid_from": "2026-08-24T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "bancoestado"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c0727fd3-7136-5c0d-ac69-1beecca8fa4b",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing BancoEstado: comprar-aqui.shop",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'comprar-aqui.shop']",
       "pattern_type": "stix",
       "valid_from": "2026-08-24T00:00:00.000Z",
       "labels": [
@@ -1217,6 +1289,30 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--11eed817-727a-5bc0-b7e3-abb6da728750",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Entel: equipos-entel.store",
+      "description": "Sitio de phishing contra usuarios de Chile (datos personales y pago). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'equipos-entel.store']",
+      "pattern_type": "stix",
+      "valid_from": "2026-08-21T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "entel"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--5912d159-6625-56f0-9baa-713e3cc6b322",
       "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
       "created": "2026-11-23T00:00:00.000Z",
@@ -1233,6 +1329,30 @@
         "phishing",
         "chile",
         "entel"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--aaf10b04-fdbb-581f-ad08-4bda8c4a57ea",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Movistar: movistarofertachile.cl",
+      "description": "Sitio de phishing contra usuarios de Chile (datos personales y pago). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'movistarofertachile.cl']",
+      "pattern_type": "stix",
+      "valid_from": "2026-08-06T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "movistar"
       ],
       "object_marking_refs": [
         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -1385,6 +1505,78 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--b52b16dd-ca93-581e-b8ed-38752a6d5d59",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Movistar: movistar-online.shop",
+      "description": "Sitio de phishing contra usuarios de Chile (datos personales y pago). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'movistar-online.shop']",
+      "pattern_type": "stix",
+      "valid_from": "2026-08-02T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "movistar"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8603112b-648d-5238-877a-f4853d3417fa",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Transbank (Webpay): portal-enlinea.site",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'portal-enlinea.site']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-30T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "transbank"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a2d01dfd-e68d-5e82-9ead-d475e02b7c67",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Tiendas falsas (sin marca): pantheonfitness.cl",
+      "description": "Sitio de phishing contra usuarios de Chile (tienda falsa (señuelo)). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'pantheonfitness.cl']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-17T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "tiendas-falsas"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--de141e76-77c1-5fbf-bf93-2c4de8b6f602",
       "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
       "created": "2026-11-23T00:00:00.000Z",
@@ -1409,6 +1601,30 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--b6520f0c-9872-58ee-bd47-6ee847712443",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Transbank (Webpay): tu-portal.online",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tu-portal.online']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-24T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "transbank"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--b51ba1c0-4667-5f78-923a-96709e257525",
       "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
       "created": "2026-11-23T00:00:00.000Z",
@@ -1421,6 +1637,438 @@
       "pattern": "[domain-name:value = 'casino-webpay.cl']",
       "pattern_type": "stix",
       "valid_from": "2026-06-24T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "transbank"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f75b1427-1161-5083-8a72-fcd9347a527e",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing BancoEstado: comproaqui.online",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'comproaqui.online']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-11T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "bancoestado"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--96985315-38a7-58ae-9c4e-102dc6637a9f",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Transbank (Webpay): imgresawebpay.online",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'imgresawebpay.online']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-10T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "transbank"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--361128b1-2f16-5792-963a-cfc6be87b28f",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Transbank (Webpay): pagowebonline.cl",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'pagowebonline.cl']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-09T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "transbank"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8ca4f268-35d1-534b-a002-de854d62b30e",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Transbank (Webpay): carlosb426.sg-host.com",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'carlosb426.sg-host.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-09T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "transbank"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--321678cf-43cd-56ab-8d06-396a87cd30ea",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Tiendas falsas (sin marca): supleusa.cl",
+      "description": "Sitio de phishing contra usuarios de Chile (tienda falsa (señuelo)). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'supleusa.cl']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-08T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "tiendas-falsas"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--20f447e3-2956-5f89-983c-835ffc8444a8",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Transbank (Webpay): comcerciowebpay.com",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'comcerciowebpay.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-08T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "transbank"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ebc575e9-dac6-56d6-8fa4-780ac5c21a33",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Transbank (Webpay): carlosb368.sg-host.com",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'carlosb368.sg-host.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-08T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "transbank"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1d53b89d-d1cf-5d23-b00d-b217931b7f6a",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Tiendas falsas (sin marca): adnnutrition.cl",
+      "description": "Sitio de phishing contra usuarios de Chile (tienda falsa (señuelo)). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'adnnutrition.cl']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-08T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "tiendas-falsas"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d55b9fba-4dbd-56f6-b568-9ac963bc8406",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Transbank (Webpay): ingreswebpay.online",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'ingreswebpay.online']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-05T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "transbank"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--948f30bb-7ec2-5ffc-8dd6-ef8ccb3cd01c",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Transbank (Webpay): comerciowedpay.store",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'comerciowedpay.store']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "transbank"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a05ac493-a1b6-5109-ae67-495dec000328",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Transbank (Webpay): pagowebpay.site",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'pagowebpay.site']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-02T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "transbank"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8becee62-08d2-5652-a360-aac5ce251be8",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Transbank (Webpay): olive-bat-844849.hostingersite.com",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'olive-bat-844849.hostingersite.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-02T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "transbank"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--dff466ad-2c01-5e61-9fa4-eaaceaf70c05",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Transbank (Webpay): ingresawebpay.online",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'ingresawebpay.online']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-02T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "transbank"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e070a0f8-f027-5dab-a9da-9d84b5437add",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Tiendas falsas (sin marca): usafitness.cl",
+      "description": "Sitio de phishing contra usuarios de Chile (tienda falsa (señuelo)). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'usafitness.cl']",
+      "pattern_type": "stix",
+      "valid_from": "2026-05-29T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "tiendas-falsas"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--77049443-03f0-527d-a9bb-02b44fb8d2f9",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Tiendas falsas (sin marca): pantheonfitt.cl",
+      "description": "Sitio de phishing contra usuarios de Chile (tienda falsa (señuelo)). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'pantheonfitt.cl']",
+      "pattern_type": "stix",
+      "valid_from": "2026-05-29T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "tiendas-falsas"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b97cd4ed-248d-59cd-8866-c2d4e65fcfad",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Movistar: movistar.digital",
+      "description": "Sitio de phishing contra usuarios de Chile (datos personales y pago). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'movistar.digital']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-02T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "movistar"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--88266911-1bf3-51b8-9d17-5ece43a6a82d",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing BancoEstado: compraraqui.cl",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'compraraqui.cl']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-06T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "bancoestado"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e25181a7-d456-5700-9545-6a5ca85c412c",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Transbank (Webpay): ventawebpay.com",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: caido.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'ventawebpay.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-03T00:00:00.000Z",
       "labels": [
         "phishing",
         "chile",
@@ -1918,7 +2566,7 @@
       "created": "2026-11-24T00:00:00.000Z",
       "modified": "2026-11-24T00:00:00.000Z",
       "name": "UANCI-PH01",
-      "description": "*Embudo con operador en vivo.* Un operador humano sigue a la víctima en tiempo real y le empuja pantallas (\"clave incorrecta\", \"ingresa tu código\") hasta sacarle la tarjeta, las claves de la banca en línea y el segundo factor.\n\n**Cómo capta víctimas** (ha ido rotando):\n\n- **Tiendas falsas de suplementos deportivos** (proteínas, creatina) promocionadas en redes sociales (TikTok, Instagram) con precios de mayorista. El checkout ofrece dos vías: *transferencia* a cuentas de terceros, con un temporizador de \"stock reservado\" para meter prisa, o *tarjeta*, que lleva a una página de pago falsa con selector de bancos. Activo al menos desde marzo de 2026.\n- **Telcos falsas** (Entel, Movistar, WOM) con renovación de equipo, oferta o deuda, que derivan a un pago falso de Compraquí (BancoEstado), Webpay o un banco. Desde agosto de 2026.\n\nUsa dominios desechables (.online, .shop, .store, .site, y .cl parecidos a marcas de pago) en hosting compartido, y a veces sitios WordPress legítimos comprometidos: bloquea el dominio, nunca la IP.\n\n**Si eres víctima:** una tienda que solo acepta transferencia a una cuenta personal o con cuenta regresiva para pagar es una señal de alerta. Si ingresaste datos de tarjeta o claves, llama de inmediato a tu banco.\n\n**Origen probable:** Chile (operador local), confianza alta. **Zona de operación:** indicios de actividad desde la Región del Biobío (centro-sur), confianza media. Activo al menos desde marzo de 2026 con variantes del mismo esquema.\n\n**Por qué Tricahue:** el loro tricahue es bullicioso y \"habla\". Este actor conversa con la víctima en tiempo real: un operador humano la guía hasta sacarle la clave y el segundo factor.",
+      "description": "*Embudo con operador en vivo.* Un operador humano sigue a la víctima en tiempo real y le empuja pantallas (\"clave incorrecta\", \"ingresa tu código\") hasta sacarle la tarjeta, las claves de la banca en línea y el segundo factor.\n\n**Cómo capta víctimas** (ha ido rotando):\n\n- **Tiendas falsas de suplementos deportivos** (proteínas, creatina) promocionadas en redes sociales (TikTok, Instagram) con precios de mayorista. El checkout ofrece dos vías: *transferencia* a cuentas de terceros, con un temporizador de \"stock reservado\" para meter prisa, o *tarjeta*, que lleva a una página de pago falsa con selector de bancos. Activo desde marzo de 2026 y con tiendas activas aún en noviembre.\n- **Telcos falsas** (Entel, Movistar, WOM) con renovación de equipo, oferta o deuda, que derivan a un pago falso de Compraquí (BancoEstado), una pasarela de pago o un banco. Desde julio de 2026.\n\nUsa dominios desechables (.online, .shop, .store, .site, y .cl parecidos a marcas de pago) en hosting compartido, y a veces sitios WordPress legítimos comprometidos: bloquea el dominio, nunca la IP.\n\n**Si eres víctima:** una tienda que solo acepta transferencia a una cuenta personal o con cuenta regresiva para pagar es una señal de alerta. Si ingresaste datos de tarjeta o claves, llama de inmediato a tu banco.\n\n**Origen probable:** Chile (operador local), confianza alta. **Zona de operación:** indicios de actividad desde la Región del Biobío (centro-sur), confianza media. Activo al menos desde marzo de 2026 con variantes del mismo esquema.\n\n**Por qué Tricahue:** el loro tricahue es bullicioso y \"habla\". Este actor conversa con la víctima en tiempo real: un operador humano la guía hasta sacarle la clave y el segundo factor.",
       "aliases": [
         "UANCI-PH01 · Tricahue",
         "Tricahue"
@@ -2327,6 +2975,20 @@
     {
       "type": "relationship",
       "spec_version": "2.1",
+      "id": "relationship--92e5bc4e-d962-5757-95fe-278c7ddab807",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--7abce2b1-4931-5ad4-957a-1f2b5c13fceb",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
       "id": "relationship--b01902b7-5ac4-544c-921a-b44f86192786",
       "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
       "created": "2026-11-23T00:00:00.000Z",
@@ -2453,6 +3115,20 @@
     {
       "type": "relationship",
       "spec_version": "2.1",
+      "id": "relationship--04fb2ce6-8a34-5eca-b83d-d79f2e9c71e2",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--ebb802af-afac-56ea-b7c8-335b47be96a5",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
       "id": "relationship--e66c51e7-14a4-527b-9727-fd0950552a64",
       "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
       "created": "2026-11-23T00:00:00.000Z",
@@ -2515,6 +3191,20 @@
       "modified": "2026-11-23T00:00:00.000Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--eca4a0c8-dd1a-56a2-a040-898175abe7c8",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--76e512ca-7ab4-58fd-9e1d-ee69133b4e3d",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--c0727fd3-7136-5c0d-ac69-1beecca8fa4b",
       "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
       "object_marking_refs": [
         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -2621,12 +3311,40 @@
     {
       "type": "relationship",
       "spec_version": "2.1",
+      "id": "relationship--429c1c2b-e96c-5b61-8d25-d5a49865fda6",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--11eed817-727a-5bc0-b7e3-abb6da728750",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
       "id": "relationship--69f7bbee-56f2-5de3-997d-359246c595f9",
       "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
       "created": "2026-11-23T00:00:00.000Z",
       "modified": "2026-11-23T00:00:00.000Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--5912d159-6625-56f0-9baa-713e3cc6b322",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--b0c409eb-bfe6-5fe0-9a82-e10cc049a46f",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--aaf10b04-fdbb-581f-ad08-4bda8c4a57ea",
       "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
       "object_marking_refs": [
         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -2711,6 +3429,342 @@
       "modified": "2026-11-23T00:00:00.000Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--edac6d84-10ea-5e79-b460-0388518ad80a",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--7d6e4f4d-a10f-550f-bc54-bc6b8d10c102",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--b52b16dd-ca93-581e-b8ed-38752a6d5d59",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a1c522d9-907c-5e23-bb10-7046243f6eb4",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--8603112b-648d-5238-877a-f4853d3417fa",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c8595c65-d653-51b7-8560-e2db9a8d66ed",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--a2d01dfd-e68d-5e82-9ead-d475e02b7c67",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ecc0b2c1-0c80-50e0-99af-e14249fe159c",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-23T00:00:00.000Z",
+      "modified": "2026-11-23T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--de141e76-77c1-5fbf-bf93-2c4de8b6f602",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--f7c9d136-793a-5432-8f96-5d77b8738a4b",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--b6520f0c-9872-58ee-bd47-6ee847712443",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--32095c43-afe3-5d6e-b957-905a299607ee",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-23T00:00:00.000Z",
+      "modified": "2026-11-23T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--b51ba1c0-4667-5f78-923a-96709e257525",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0cb93914-a0be-5f6d-83d2-dc3bee3a0f16",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--f75b1427-1161-5083-8a72-fcd9347a527e",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--39209abe-6583-5786-b2a3-fe61d664715c",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--96985315-38a7-58ae-9c4e-102dc6637a9f",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--dbcebf2e-fe3f-5e50-9ef0-799783df6ecc",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--361128b1-2f16-5792-963a-cfc6be87b28f",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ee75b280-bf9c-558d-b490-dfd199134e7b",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--8ca4f268-35d1-534b-a002-de854d62b30e",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--7b3eb193-9bf0-51b5-a9e0-9aa275b5e738",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--321678cf-43cd-56ab-8d06-396a87cd30ea",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--210c1f98-af6c-5b7f-ad08-818904cb359f",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--20f447e3-2956-5f89-983c-835ffc8444a8",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c3f6ea58-8f8a-50bb-9dfe-da3a1b1c306a",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--ebc575e9-dac6-56d6-8fa4-780ac5c21a33",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--9ac907cd-7886-5523-99a3-76e9f35e2495",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--1d53b89d-d1cf-5d23-b00d-b217931b7f6a",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--60a949a7-a937-5cb2-9fb2-9bcd6b9a8e67",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--d55b9fba-4dbd-56f6-b568-9ac963bc8406",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--15663ecd-fa0d-5110-a1df-28759c75d1b5",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--948f30bb-7ec2-5ffc-8dd6-ef8ccb3cd01c",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--adabb5c5-5237-51a9-aca6-60320768cb8e",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--a05ac493-a1b6-5109-ae67-495dec000328",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--5d1cc913-7abb-5147-a17f-6555a340d767",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--8becee62-08d2-5652-a360-aac5ce251be8",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a660ec29-ed8b-5020-a7fa-8218c9fb9c20",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--dff466ad-2c01-5e61-9fa4-eaaceaf70c05",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d2d95e98-ddcf-57e0-b5bd-d21aa864bf01",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--e070a0f8-f027-5dab-a9da-9d84b5437add",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--1c768920-c411-5e37-92a9-c9f47c587c58",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--77049443-03f0-527d-a9bb-02b44fb8d2f9",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--b258fd63-5001-52dc-ba27-711206285f6b",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--b97cd4ed-248d-59cd-8866-c2d4e65fcfad",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--11620b31-a1f9-5637-bfe9-d113153927b9",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--88266911-1bf3-51b8-9d17-5ece43a6a82d",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--eecf5210-076a-5bf3-ab0f-e20558c3340e",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--e25181a7-d456-5700-9545-6a5ca85c412c",
       "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
       "object_marking_refs": [
         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"

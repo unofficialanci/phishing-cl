@@ -1,6 +1,6 @@
 # Movistar
 
-**8** sitios de phishing publicados · **0** activos · 2026-08-05 → 2026-09-08
+**11** sitios de phishing publicados · **0** activos · 2026-04-02 → 2026-09-08
 
 - Bloquear: [`activos.txt`](activos.txt)
 - Histórico: [`iocs.csv`](iocs.csv)
@@ -13,6 +13,9 @@
 | 2026-08-25 | `equipo-movistar[.]online` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |
 | 2026-08-24 | `tu-movistar[.]shop` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |
 | 2026-08-22 | `movistarofertchile[.]cl` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |
+| 2026-08-06 | `movistarofertachile[.]cl` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |
 | 2026-08-05 | `renueva-one[.]store` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |
 | 2026-08-05 | `renueva-movistar[.]site` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |
+| 2026-08-02 | `movistar-online[.]shop` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |
+| 2026-04-02 | `movistar[.]digital` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |
 | — | `ofertasmovistarchile[.]cl` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |

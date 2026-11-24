@@ -1,6 +1,6 @@
 # Entel
 
-**7** sitios de phishing publicados · **3** activos · 2026-08-19 → 2026-11-24
+**8** sitios de phishing publicados · **3** activos · 2026-08-19 → 2026-11-24
 
 - Bloquear: [`activos.txt`](activos.txt)
 - Histórico: [`iocs.csv`](iocs.csv)
@@ -14,4 +14,5 @@
 | 2026-10-03 | `mundo-entel[.]online` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |
 | 2026-09-17 | `equipo-entel[.]online` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |
 | 2026-08-22 | `entel-renueva[.]shop` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |
+| 2026-08-21 | `equipos-entel[.]store` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |
 | 2026-08-19 | `renueva-entel[.]online` | [UANCI-PH01](../../actores/UANCI-PH01/) | datos personales y pago | caido |
