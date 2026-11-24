@@ -9,7 +9,7 @@
 ## Resumen
 
 - **Mirlo** cobra **deudas que no existen** (telefonía, peajes TAG, electricidad, gas) y vende **promociones falsas** (viajes, puntos, supermercado) a usuarios chilenos.
-- **La víctima paga de verdad.** Paga en una pasarela real (Webpay o MercadoPago), pero el cobro va a una cuenta del operador y no a la empresa que cree estar pagando. No hay robo visible de la tarjeta, así que muchas víctimas no notan el fraude hasta que reclaman la "deuda" o revisan el comprobante.
+- **La víctima paga de verdad.** Paga en una pasarela de pago real, pero el cobro va a una cuenta del operador y no a la empresa que cree estar pagando. No hay robo visible de la tarjeta, así que muchas víctimas no notan el fraude hasta que reclaman la "deuda" o revisan el comprobante.
 - **Monta sus sitios en subdominios inyectados** en zonas DNS de pequeñas empresas, casi todas mexicanas, que no tienen relación con él ni saben que las usa.
 - **Está activo al menos desde mayo de 2026.** Hasta hoy suma **41 sitios publicados** en este repositorio, sobre **más de 25 dominios de terceros** y **9 marcas chilenas**.
 - **Rota rápido.** Cada sitio dura pocos días y, cuando le bajan un servidor, monta la infraestructura de nuevo en **menos de 12 horas**.
@@ -66,7 +66,7 @@ Las marcas de la primera fase (Vespucio Sur, Banco Ripley, Hites y Tarjeta ABC) 
 
 - **Mira el final de la dirección, no el principio.** En `pagos.telsur.cl.ejemplo.com.mx`, el sitio real es `ejemplo.com.mx`: el `telsur.cl` del comienzo es solo decoración.
 - **Una deuda que aparece con cualquier RUT es falsa.** Las empresas no muestran deudas a quien no se identifica.
-- **Revisa a quién le pagas.** En la pasarela de pago y en el comprobante figura quién recibe el dinero (el comercio en Webpay, el vendedor en MercadoPago). Si no es la empresa que crees estar pagando, detente.
+- **Revisa a quién le pagas.** En la pasarela de pago y en el comprobante figura quién recibe el dinero (el comercio o el vendedor que cobra). Si no es la empresa que crees estar pagando, detente.
 - **Paga siempre desde el sitio o la app oficial**, escribiendo tú la dirección, nunca desde un enlace recibido.
 
 ## Recomendaciones
