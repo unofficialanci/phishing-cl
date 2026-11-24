@@ -2,3 +2,5 @@
 # Un dominio por linea, sin defang, para DNS/proxy/firewall.
 estadoenlinea.dizukmex.com.mx
 mitelsur.inomodul.com
+tagtotal.elcaporalmx.com
+telsurenlinea2.gotammaintenance.com.mx

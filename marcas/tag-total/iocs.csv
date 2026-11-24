@@ -1,5 +1,5 @@
 dominio,url,ip,marca,detalle_marca,actor,tipo,primera_deteccion,estado,publicado,nota
-tagtotal.elcaporalmx.com,https://tagtotal.elcaporalmx.com/,167.88.175.156,TAG Total (Unired),TAG Total,UANCI-PH02,pago de deuda falsa,2026-11-17,caido,2026-11-24,subdominio inyectado en la zona DNS de un tercero: NO bloquear el dominio raíz
+tagtotal.elcaporalmx.com,https://tagtotal.elcaporalmx.com/,167.88.175.156,TAG Total (Unired),TAG Total,UANCI-PH02,pago de deuda falsa,2026-11-17,activo,2026-11-24,subdominio inyectado en la zona DNS de un tercero: NO bloquear el dominio raíz
 tagtotal.perfax.com.mx,https://tagtotal.perfax.com.mx/,,TAG Total (Unired),TAG Total,UANCI-PH02,pago de deuda falsa,2026-11-12,caido,2026-11-23,subdominio inyectado en la zona DNS de un tercero: NO bloquear el dominio raíz
 normas.contornoestudio.com,https://normas.contornoestudio.com/,64.95.13.53,TAG Total (Unired),TAG Total,UANCI-PH02,pago de deuda falsa,2026-11-12,caido,2026-11-23,subdominio inyectado en la zona DNS de un tercero: NO bloquear el dominio raíz
 normas.arnom.com.mx,https://normas.arnom.com.mx/,206.188.196.22,TAG Total (Unired),TAG Total,UANCI-PH02,pago de deuda falsa,2026-11-12,caido,2026-11-23,subdominio inyectado en la zona DNS de un tercero: NO bloquear el dominio raíz
