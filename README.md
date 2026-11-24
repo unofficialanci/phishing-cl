@@ -88,8 +88,10 @@ los operadores también leen.
 
 ## Uso y licencia
 
-- Datos bajo **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)**:
-  úsalos, incluso comercialmente, citando la fuente.
+- Datos (`feeds/`, `marcas/`, `actores/`, `reportes/` y `ULTIMOS.md`) bajo
+  **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)** (texto
+  completo en [`LICENSE`](LICENSE)): úsalos, incluso comercialmente, citando la
+  fuente: *"phishing-cl (github.com/unofficialanci/phishing-cl)"*.
 - Clasificación **TLP:CLEAR**: se pueden compartir sin restricciones.
 - Se ofrecen "tal cual", sin garantía. Verifica antes de tomar acciones
   irreversibles.
