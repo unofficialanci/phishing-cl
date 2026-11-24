@@ -1,6 +1,6 @@
 # Telsur (GTD)
 
-**17** sitios de phishing publicados · **1** activos · 2026-11-05 → 2026-11-22
+**17** sitios de phishing publicados · **0** activos · 2026-11-05 → 2026-11-22
 
 - Bloquear: [`activos.txt`](activos.txt)
 - Histórico: [`iocs.csv`](iocs.csv)
@@ -11,7 +11,7 @@
 | 2026-11-22 | `telsurenlinea[.]daremexicali[.]org` | [UANCI-PH02](../../actores/UANCI-PH02/) | pago de deuda falsa | caido |
 | 2026-11-18 | `tutslur[.]cdisatelite[.]com` | [UANCI-PH02](../../actores/UANCI-PH02/) | pago de deuda falsa | caido |
 | 2026-11-18 | `telsurechile[.]cecoban[.]com` | [UANCI-PH02](../../actores/UANCI-PH02/) | pago de deuda falsa | caido |
-| 2026-11-18 | `servicios[.]actanonverba[.]mx` | [UANCI-PH02](../../actores/UANCI-PH02/) | redirector hacia el kit | 🔴 activo |
+| 2026-11-18 | `servicios[.]actanonverba[.]mx` | [UANCI-PH02](../../actores/UANCI-PH02/) | redirector hacia el kit | caido |
 | 2026-11-17 | `telsurchile[.]beautyl[.]com[.]mx` | [UANCI-PH02](../../actores/UANCI-PH02/) | pago de deuda falsa | caido |
 | 2026-11-16 | `tutelsurenlinea[.]cippsa[.]com` | [UANCI-PH02](../../actores/UANCI-PH02/) | pago de deuda falsa | caido |
 | 2026-11-14 | `tutelsur[.]avdisenoyarquitectura[.]mx` | [UANCI-PH02](../../actores/UANCI-PH02/) | pago de deuda falsa | caido |

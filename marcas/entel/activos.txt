@@ -1,3 +1,5 @@
 # Dominios de phishing ACTIVOS al exportar — Entel. TLP:CLEAR · CC BY 4.0.
 # Un dominio por linea, sin defang, para DNS/proxy/firewall.
+consulta-de-pagos.replit.app
+enrel.life
 portal-entel.online

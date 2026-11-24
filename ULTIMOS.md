@@ -4,13 +4,15 @@ URLs desactivadas a propósito (`hxxps`, `[.]`). Para bloquear usa [`feeds/activ
 
 | Detectado | Dominio | Marca | Tipo | Estado |
 |---|---|---|---|---|
+| 2026-11-24 | `enrel[.]life` | Entel | pago de deuda falsa | 🔴 activo |
+| 2026-11-24 | `consulta-de-pagos[.]replit[.]app` | Entel | pago de deuda falsa | 🔴 activo |
 | 2026-11-22 | `telsurenlinea[.]daremexicali[.]org` | Telsur (GTD) | pago de deuda falsa | caido |
 | 2026-11-21 | `estadoenlinea[.]dizukmex[.]com[.]mx` | BancoEstado | credenciales bancarias y tarjeta | 🔴 activo |
 | 2026-11-21 | `compraraqui[.]shop` | BancoEstado | credenciales bancarias | 🔴 activo |
 | 2026-11-19 | `comprameaqui[.]online` | BancoEstado | credenciales bancarias | caido |
 | 2026-11-18 | `tutslur[.]cdisatelite[.]com` | Telsur (GTD) | pago de deuda falsa | caido |
 | 2026-11-18 | `telsurechile[.]cecoban[.]com` | Telsur (GTD) | pago de deuda falsa | caido |
-| 2026-11-18 | `servicios[.]actanonverba[.]mx` | Telsur (GTD) | redirector hacia el kit | 🔴 activo |
+| 2026-11-18 | `servicios[.]actanonverba[.]mx` | Telsur (GTD) | redirector hacia el kit | caido |
 | 2026-11-17 | `telsurchile[.]beautyl[.]com[.]mx` | Telsur (GTD) | pago de deuda falsa | caido |
 | 2026-11-17 | `tagtotal[.]elcaporalmx[.]com` | TAG Total (Unired) | pago de deuda falsa | 🔴 activo |
 | 2026-11-16 | `tutelsurenlinea[.]cippsa[.]com` | Telsur (GTD) | pago de deuda falsa | caido |
@@ -52,5 +54,3 @@ URLs desactivadas a propósito (`hxxps`, `[.]`). Para bloquear usa [`feeds/activ
 | 2026-08-22 | `compremeaqui[.]online` | BancoEstado | credenciales bancarias | caido |
 | 2026-08-22 | `compra-qui[.]online` | BancoEstado | credenciales bancarias | caido |
 | 2026-08-22 | `comercios-verificacion[.]online` | BancoEstado | credenciales bancarias | caido |
-| 2026-08-19 | `renueva-entel[.]online` | Entel | datos personales y pago | caido |
-| 2026-08-05 | `tu-portal[.]store` | Transbank (Webpay) | credenciales bancarias | caido |

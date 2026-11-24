@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--3f4261b4-dc2f-5605-b34f-457e714ba2a2",
+  "id": "bundle--2aeef228-c08d-5f85-b08d-dba4dcfb1c76",
   "objects": [
     {
       "type": "identity",
@@ -10,6 +10,54 @@
       "modified": "2026-11-22T00:00:00.000Z",
       "name": "phishing-cl",
       "identity_class": "group",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f9f4711f-0824-53c1-b0d0-6715d1099d4b",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Entel: enrel.life",
+      "description": "Sitio de phishing contra usuarios de Chile (pago de deuda falsa). Estado al exportar: activo.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'enrel.life']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-24T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "entel"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ab8ae1e1-1653-58ed-8aca-8b9f96eaa5c4",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-24T00:00:00.000Z",
+      "modified": "2026-11-24T00:00:00.000Z",
+      "name": "Phishing Entel: consulta-de-pagos.replit.app",
+      "description": "Sitio de phishing contra usuarios de Chile (pago de deuda falsa). Estado al exportar: activo.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'consulta-de-pagos.replit.app']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-24T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "entel"
+      ],
       "object_marking_refs": [
         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
       ]
@@ -166,7 +214,7 @@
       "created": "2026-11-23T00:00:00.000Z",
       "modified": "2026-11-23T00:00:00.000Z",
       "name": "Phishing Telsur (GTD): servicios.actanonverba.mx",
-      "description": "Sitio de phishing contra usuarios de Chile (redirector hacia el kit). Estado al exportar: activo.",
+      "description": "Sitio de phishing contra usuarios de Chile (redirector hacia el kit). Estado al exportar: caido.",
       "indicator_types": [
         "malicious-activity"
       ],
