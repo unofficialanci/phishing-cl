@@ -64,12 +64,12 @@ Cuando la víctima termina, el operador ya usó el código para entrar a su banc
 | Marca | Sitios | Qué hace el sitio falso |
 |---|---|---|
 | [BancoEstado](../marcas/bancoestado/) | 19 | Pago Compraquí falso: clave, tarjeta y segundo factor |
+| [Webpay](../marcas/transbank/) | 19 | Página de pago falsa con selector de bancos |
 | [Movistar](../marcas/movistar/) | 11 | Renovación u oferta falsa de equipo |
 | [Entel](../marcas/entel/) | 6 | Renovación falsa de equipo |
 | [Tiendas falsas](../marcas/tiendas-falsas/) | 6 | Tienda de suplementos que cobra por transferencia o con un pago falso |
 | [Banco de Chile](../marcas/banco-de-chile/) | 1 | Clave y segundo factor |
 | [WOM](../marcas/wom/) | 1 | Recarga falsa |
-| Otras páginas de pago falsas | 19 | Selector de bancos, sin una marca principal |
 
 Las páginas de pago incluyen copias de casi todos los bancos chilenos. En la tabla figura solo la marca principal de cada sitio.
 
