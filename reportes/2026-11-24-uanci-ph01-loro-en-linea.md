@@ -24,7 +24,7 @@
 - **Telcos falsas** (Entel, Movistar, WOM): renovación de equipo, oferta o recarga. El sitio imita un proceso de compra completo: eliges el teléfono y el plan, ingresas tu RUT, correo y dirección, y eliges la fecha de entrega. Así el sitio parece legítimo y, de paso, se queda con tus datos personales.
 - **Otras marcas, de forma puntual:** un portal de empleos y una empresa de envíos.
 
-**2. El pago falso.** Al pagar, la víctima llega a una página que imita una pasarela de pago o el pago **Compraquí de BancoEstado**, con un selector para "elegir tu banco": BancoEstado, Banco de Chile, Santander, BCI, Falabella, Itaú, Ripley, Scotiabank y otros. Cada banco tiene su propia copia de la página de ingreso y de la pantalla del segundo factor.
+**2. El pago falso.** Al pagar, la víctima llega a una página que imita el pago **Compraquí de BancoEstado** o la pantalla de Webpay, con un selector para "elegir tu banco": BancoEstado, Banco de Chile, Santander, BCI, Falabella, Itaú, Ripley, Scotiabank y otros. Cada banco tiene su propia copia de la página de ingreso y de la pantalla del segundo factor.
 
 **3. El operador en vivo.** Desde aquí actúa una persona:
 - Recibe al instante lo que la víctima escribe y ve su pantalla.
@@ -40,7 +40,7 @@ Cuando la víctima termina, el operador ya usó el código para entrar a su banc
 - **Nombres en familias.** Repite el mismo nombre con variaciones cuando le bajan un sitio:
   - pago de BancoEstado: `compre-aqui`, `compreme-aqui`, `compraraqui`, `comprameaqui`, `aquicompre`, `compraqui-web`…
   - telcos: `renueva-<telco>`, `equipo-<telco>`, `portal-<telco>`, `mundo-<telco>`, `promocion-<telco>`…
-  - pasarelas genéricas: `tu-portal`, `tu-metodo`, `tu-comercio`, `comercio-online`…
+  - páginas de pago con nombres genéricos: `tu-portal`, `tu-metodo`, `tu-comercio`, `comercio-online`…
 - **Dos etapas.** El sitio de la telco y el de pago son dominios distintos, pero suelen compartir servidor y registrador, y caen juntos.
 - **Rotación rápida.** Cada sitio dura entre días y pocas semanas. El actor tiene dominios de reserva y vuelve con otro nombre de la misma familia.
 
@@ -50,8 +50,8 @@ Cuando la víctima termina, el operador ya usó el código para entrar a su banc
 |---|---|
 | **Marzo 2026** | Primeras páginas de pago falsas con selector de bancos, incluido un clon de **Compraquí**. |
 | **Marzo-octubre 2026** | Tiendas falsas de suplementos en redes sociales (al menos diez tiendas distintas), con cobro por transferencia o por la página de pago falsa. |
-| **Junio 2026** | Ola de pasarelas de pago falsas y clones de Compraquí en dominios desechables. |
-| **Julio 2026** | Aparece el señuelo de telcos: renovaciones falsas de Movistar y pasarelas genéricas (`tu-portal`, `tu-metodo`, `comercio-online`). |
+| **Junio 2026** | Ola de páginas de pago falsas y clones de Compraquí en dominios desechables. |
+| **Julio 2026** | Aparece el señuelo de telcos: renovaciones falsas de Movistar y páginas de pago con nombres genéricos (`tu-portal`, `tu-metodo`, `comercio-online`). |
 | **Agosto 2026** | Renovación de equipos Entel, más clones de Compraquí (`compra-qui`, `compraraqui`, `comprar-aqui`) y ofertas de Movistar en dominios `.cl`. |
 | **Septiembre 2026** | Más clones de Compraquí y de equipos Entel y Movistar; recargas falsas de WOM; un clon de pago para Banco de Chile. |
 | **Octubre 2026** | `mundo-entel` y una nueva tienda falsa de suplementos, `suplestoop.cl`. |
@@ -64,12 +64,12 @@ Cuando la víctima termina, el operador ya usó el código para entrar a su banc
 | Marca | Sitios | Qué hace el sitio falso |
 |---|---|---|
 | [BancoEstado](../marcas/bancoestado/) | 19 | Pago Compraquí falso: clave, tarjeta y segundo factor |
-| Pasarelas de pago genéricas | 19 | Página de pago falsa con selector de bancos |
 | [Movistar](../marcas/movistar/) | 11 | Renovación u oferta falsa de equipo |
 | [Entel](../marcas/entel/) | 6 | Renovación falsa de equipo |
 | [Tiendas falsas](../marcas/tiendas-falsas/) | 6 | Tienda de suplementos que cobra por transferencia o con un pago falso |
 | [Banco de Chile](../marcas/banco-de-chile/) | 1 | Clave y segundo factor |
 | [WOM](../marcas/wom/) | 1 | Recarga falsa |
+| Otras páginas de pago falsas | 19 | Selector de bancos, sin una marca principal |
 
 Las páginas de pago incluyen copias de casi todos los bancos chilenos. En la tabla figura solo la marca principal de cada sitio.
 
@@ -96,7 +96,7 @@ Las páginas de pago incluyen copias de casi todos los bancos chilenos. En la ta
 
 ## Atribución y confianza
 
-- **Alta:** los sitios de telcos y los de pago (Compraquí, pasarelas falsas, bancos) usan el mismo kit con operador en vivo, se enlazan entre sí (la telco deriva al pago) y comparten registrador y hosting.
+- **Alta:** los sitios de telcos y los de pago (Compraquí, otras páginas de pago, bancos) usan el mismo kit con operador en vivo, se enlazan entre sí (la telco deriva al pago) y comparten registrador y hosting.
 - **Media-alta:** la fase de tiendas falsas de suplementos se liga a la de telcos por la misma página de pago con selector de bancos y el mismo modo de operar con un operador en vivo.
 - **Origen:** Chile, confianza alta. **Zona:** Región del Biobío, confianza media. No publicamos el detalle de esa evaluación.
 - No hay relación conocida con [UANCI-PH02 · Mirlo](../actores/UANCI-PH02/): opera, aloja y cobra de otra forma.
