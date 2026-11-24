@@ -1,0 +1,2 @@
+# Dominios de phishing ACTIVOS al exportar — Líder. TLP:CLEAR · CC BY 4.0.
+# Un dominio por linea, sin defang, para DNS/proxy/firewall.

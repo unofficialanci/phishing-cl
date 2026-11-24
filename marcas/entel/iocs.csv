@@ -1,0 +1,6 @@
+dominio,url,ip,marca,detalle_marca,actor,tipo,primera_deteccion,estado,publicado,nota
+portal-entel.online,https://portal-entel.online/,66.29.148.201,Entel,Entel (paso de pago Webpay/Compraquí),UANCI-PH01,datos personales y pago,2026-11-08,activo,2026-11-23,campaña con operador en vivo (embudo telco → Compraquí/Webpay)
+mundo-entel.online,https://mundo-entel.online/,66.29.148.193,Entel,Entel (paso de pago Webpay/Compraquí),UANCI-PH01,datos personales y pago,2026-10-03,caido,2026-11-23,campaña con operador en vivo (embudo telco → Compraquí/Webpay)
+equipo-entel.online,https://equipo-entel.online/iphone-9/,66.29.148.13,Entel,Entel (paso de pago Webpay),UANCI-PH01,datos personales y pago,2026-09-17,caido,2026-11-23,campaña con operador en vivo (embudo telco → Compraquí/Webpay)
+entel-renueva.shop,https://entel-renueva.shop/iphone-9/,66.29.148.179,Entel,Entel (paso de pago Webpay/Compraquí),UANCI-PH01,datos personales y pago,2026-08-22,caido,2026-11-23,campaña con operador en vivo (embudo telco → Compraquí/Webpay)
+renueva-entel.online,https://renueva-entel.online/iphone-9/,,Entel,Entel (paso de pago Webpay),UANCI-PH01,datos personales y pago,2026-08-19,caido,2026-11-23,campaña con operador en vivo (embudo telco → Compraquí/Webpay)

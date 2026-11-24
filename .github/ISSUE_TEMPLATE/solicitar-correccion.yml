@@ -1,0 +1,28 @@
+name: Solicitar corrección
+description: El dominio es legítimo o ya fue limpiado
+title: "Corrección: "
+labels: ["correccion"]
+body:
+  - type: input
+    id: dominio
+    attributes:
+      label: Dominio
+    validations:
+      required: true
+  - type: dropdown
+    id: motivo
+    attributes:
+      label: Motivo
+      options:
+        - Es un sitio legítimo (falso positivo)
+        - Era un sitio comprometido y ya está limpio
+        - Otro
+    validations:
+      required: true
+  - type: textarea
+    id: detalle
+    attributes:
+      label: Detalle
+      description: Por qué es legítimo o desde cuándo está limpio, y un contacto.
+    validations:
+      required: true

@@ -1,0 +1,5 @@
+# Dominios de phishing ACTIVOS al exportar — UANCI-PH02 · Mirlo. TLP:CLEAR · CC BY 4.0.
+# Un dominio por linea, sin defang, para DNS/proxy/firewall.
+estadoenlinea.dizukmex.com.mx
+servicios.actanonverba.mx
+tagtotal.elcaporalmx.com

@@ -1,0 +1,60 @@
+# UANCI-PH01 · Tricahue
+
+*Embudo con operador en vivo.* Un operador humano sigue a la víctima en tiempo real y le empuja pantallas ("clave incorrecta", "ingresa tu código") hasta sacarle la tarjeta, las claves de la banca en línea y el segundo factor.
+
+**Cómo capta víctimas** (ha ido rotando):
+
+- **Tiendas falsas de suplementos deportivos** (proteínas, creatina) promocionadas en redes sociales (TikTok, Instagram) con precios de mayorista. El checkout ofrece dos vías: *transferencia* a cuentas de terceros, con un temporizador de "stock reservado" para meter prisa, o *tarjeta*, que lleva a una página de pago falsa con selector de bancos. Activo al menos desde marzo de 2026.
+- **Telcos falsas** (Entel, Movistar, WOM) con renovación de equipo, oferta o deuda, que derivan a un pago falso de Compraquí (BancoEstado), Webpay o un banco. Desde agosto de 2026.
+
+Usa dominios desechables (.online, .shop, .store, .site, y .cl parecidos a marcas de pago) en hosting compartido, y a veces sitios WordPress legítimos comprometidos: bloquea el dominio, nunca la IP.
+
+**Si eres víctima:** una tienda que solo acepta transferencia a una cuenta personal o con cuenta regresiva para pagar es una señal de alerta. Si ingresaste datos de tarjeta o claves, llama de inmediato a tu banco.
+
+**Origen probable:** Chile (operador local), confianza alta. **Zona de operación:** indicios de actividad desde la Región del Biobío (centro-sur), confianza media. Activo al menos desde marzo de 2026 con variantes del mismo esquema.
+
+**Por qué Tricahue:** el loro tricahue es bullicioso y "habla". Este actor conversa con la víctima en tiempo real: un operador humano la guía hasta sacarle la clave y el segundo factor.
+
+**34** sitios · **3** activos · 2026-08-05 → 2026-11-21
+
+Marcas suplantadas: [Banco de Chile](../../marcas/banco-de-chile/), [BancoEstado](../../marcas/bancoestado/), [Entel](../../marcas/entel/), [Movistar](../../marcas/movistar/), [Transbank (Webpay)](../../marcas/transbank/), [WOM](../../marcas/wom/)
+
+- Bloquear: [`activos.txt`](activos.txt)
+- Histórico: [`iocs.csv`](iocs.csv)
+
+| Detectado | Dominio | Marca | Tipo | Estado |
+|---|---|---|---|---|
+| 2026-11-21 | `compraraqui[.]shop` | BancoEstado | credenciales bancarias | 🔴 activo |
+| 2026-11-19 | `comprameaqui[.]online` | BancoEstado | credenciales bancarias | caido |
+| 2026-11-08 | `portal-entel[.]online` | Entel | datos personales y pago | 🔴 activo |
+| 2026-11-05 | `aquicompre[.]store` | BancoEstado | credenciales bancarias | caido |
+| 2026-11-04 | `compremeaqui[.]shop` | BancoEstado | credenciales bancarias | caido |
+| 2026-10-03 | `mundo-entel[.]online` | Entel | datos personales y pago | caido |
+| 2026-09-23 | `compreaqui[.]live` | BancoEstado | credenciales bancarias | caido |
+| 2026-09-22 | `webpay-comercio[.]online` | Banco de Chile | credenciales bancarias | caido |
+| 2026-09-22 | `recargas-wom[.]online` | WOM | datos personales | 🔴 activo |
+| 2026-09-17 | `equipo-entel[.]online` | Entel | datos personales y pago | caido |
+| 2026-09-17 | `compreme-aqui[.]online` | BancoEstado | credenciales bancarias | caido |
+| 2026-09-08 | `promocion-movistar[.]shop` | Movistar | datos personales y pago | caido |
+| 2026-09-07 | `compraqui-web[.]online` | BancoEstado | credenciales bancarias | caido |
+| 2026-09-04 | `compre-aqui[.]site` | BancoEstado | credenciales bancarias | caido |
+| 2026-08-28 | `comprar-aqui[.]online` | BancoEstado | credenciales bancarias | caido |
+| 2026-08-25 | `portate-movistar[.]shop` | Movistar | datos personales y pago | caido |
+| 2026-08-25 | `equipo-movistar[.]online` | Movistar | datos personales y pago | caido |
+| 2026-08-24 | `tu-movistar[.]shop` | Movistar | datos personales y pago | caido |
+| 2026-08-24 | `compraraqui[.]store` | BancoEstado | credenciales bancarias | caido |
+| 2026-08-24 | `compra-qui[.]shop` | BancoEstado | credenciales bancarias | caido |
+| 2026-08-22 | `tu-comercio[.]online` | BancoEstado | credenciales bancarias | caido |
+| 2026-08-22 | `movistarofertchile[.]cl` | Movistar | datos personales y pago | caido |
+| 2026-08-22 | `entel-renueva[.]shop` | Entel | datos personales y pago | caido |
+| 2026-08-22 | `compremeaqui[.]online` | BancoEstado | credenciales bancarias | caido |
+| 2026-08-22 | `compra-qui[.]online` | BancoEstado | credenciales bancarias | caido |
+| 2026-08-22 | `comercios-verificacion[.]online` | BancoEstado | credenciales bancarias | caido |
+| 2026-08-19 | `renueva-entel[.]online` | Entel | datos personales y pago | caido |
+| 2026-08-05 | `tu-portal[.]store` | Transbank (Webpay) | credenciales bancarias | caido |
+| 2026-08-05 | `tu-portal[.]shop` | Transbank (Webpay) | credenciales bancarias | caido |
+| 2026-08-05 | `tu-metodo[.]shop` | Transbank (Webpay) | credenciales bancarias | caido |
+| 2026-08-05 | `renueva-one[.]store` | Movistar | datos personales y pago | caido |
+| 2026-08-05 | `renueva-movistar[.]site` | Movistar | datos personales y pago | caido |
+| 2026-08-05 | `comercio-online[.]online` | Transbank (Webpay) | credenciales bancarias | caido |
+| — | `ofertasmovistarchile[.]cl` | Movistar | datos personales y pago | caido |

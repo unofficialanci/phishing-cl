@@ -1,0 +1,7 @@
+dominio,url,ip,marca,detalle_marca,actor,tipo,primera_deteccion,estado,publicado,nota
+tu-portal.store,https://tu-portal.store/b-estado/,,Transbank (Webpay),Webpay,UANCI-PH01,credenciales bancarias,2026-08-05,caido,2026-11-23,campaña con operador en vivo (embudo telco → Compraquí/Webpay)
+tu-portal.shop,https://tu-portal.shop/webpay/,,Transbank (Webpay),Webpay,UANCI-PH01,credenciales bancarias,2026-08-05,caido,2026-11-23,campaña con operador en vivo (embudo telco → Compraquí/Webpay)
+tu-metodo.shop,https://tu-metodo.shop/webpay/,,Transbank (Webpay),Webpay,UANCI-PH01,credenciales bancarias,2026-08-05,caido,2026-11-23,campaña con operador en vivo (embudo telco → Compraquí/Webpay)
+comercio-online.online,https://comercio-online.online/t-app,,Transbank (Webpay),Webpay,UANCI-PH01,credenciales bancarias,2026-08-05,caido,2026-11-23,campaña con operador en vivo (embudo telco → Compraquí/Webpay)
+webpagosegurotransbak.cl,https://webpagosegurotransbak.cl/2780-2/,,Transbank (Webpay),Transbank / Webpay,sin-atribuir,pago con tarjeta,2026-07-01,caido,2026-11-23,
+casino-webpay.cl,https://casino-webpay.cl,,Transbank (Webpay),Webpay,sin-atribuir,pago con tarjeta,2026-06-24,caido,2026-11-23,

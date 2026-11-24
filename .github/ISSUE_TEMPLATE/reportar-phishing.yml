@@ -1,0 +1,34 @@
+name: Reportar phishing
+description: Un sitio que suplanta a una marca chilena
+title: "Phishing: "
+labels: ["reporte"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por reportar. **No pegues datos de víctimas** (RUT, tarjetas, claves) ni abras el sitio con tus credenciales.
+        Escribe la URL desactivada si puedes: `hxxps://ejemplo[.]com`.
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: hxxps://sitio-falso[.]com/ruta
+    validations:
+      required: true
+  - type: input
+    id: marca
+    attributes:
+      label: Marca suplantada
+      placeholder: BancoEstado, Entel, TAG Total...
+    validations:
+      required: true
+  - type: textarea
+    id: como
+    attributes:
+      label: ¿Cómo llegó? (SMS, correo, anuncio, WhatsApp...)
+      description: Si tienes el texto del mensaje, pégalo sin datos personales.
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Evidencia
+      description: Captura de pantalla (opcional).
