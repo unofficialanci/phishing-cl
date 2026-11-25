@@ -1,4 +1,3 @@
 # Dominios de phishing ACTIVOS al exportar — Telsur (GTD). TLP:CLEAR · CC BY 4.0.
 # Un dominio por linea, sin defang, para DNS/proxy/firewall.
-mitelsur.inomodul.com
 telsurenlinea2.gotammaintenance.com.mx

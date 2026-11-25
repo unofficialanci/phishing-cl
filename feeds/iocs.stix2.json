@@ -46,7 +46,7 @@
       "created": "2026-11-24T00:00:00.000Z",
       "modified": "2026-11-24T00:00:00.000Z",
       "name": "Phishing Telsur (GTD): mitelsur.inomodul.com",
-      "description": "Sitio de phishing contra usuarios de Chile (pago de deuda falsa). Estado al exportar: activo.",
+      "description": "Sitio de phishing contra usuarios de Chile (pago de deuda falsa). Estado al exportar: caido.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -763,8 +763,8 @@
       "spec_version": "2.1",
       "id": "indicator--7abce2b1-4931-5ad4-957a-1f2b5c13fceb",
       "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
-      "created": "2026-11-24T00:00:00.000Z",
-      "modified": "2026-11-24T00:00:00.000Z",
+      "created": "2026-11-25T00:00:00.000Z",
+      "modified": "2026-11-25T00:00:00.000Z",
       "name": "Phishing Tiendas falsas (sin marca): suplestoop.cl",
       "description": "Sitio de phishing contra usuarios de Chile (tienda falsa (señuelo)). Estado al exportar: activo.",
       "indicator_types": [
@@ -3053,8 +3053,8 @@
       "spec_version": "2.1",
       "id": "relationship--92e5bc4e-d962-5757-95fe-278c7ddab807",
       "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
-      "created": "2026-11-24T00:00:00.000Z",
-      "modified": "2026-11-24T00:00:00.000Z",
+      "created": "2026-11-25T00:00:00.000Z",
+      "modified": "2026-11-25T00:00:00.000Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--7abce2b1-4931-5ad4-957a-1f2b5c13fceb",
       "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",

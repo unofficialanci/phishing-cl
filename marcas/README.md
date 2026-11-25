@@ -5,7 +5,7 @@ Cada carpeta tiene un `activos.txt` (para bloquear) y un `iocs.csv` (histórico)
 | Marca | Activos | Total | Periodo |
 |---|---|---|---|
 | [BancoEstado](bancoestado/) | 2 | 20 | 2026-03-06 → 2026-11-21 |
-| [Telsur (GTD)](telsur/) | 2 | 19 | 2026-11-05 → 2026-11-24 |
+| [Telsur (GTD)](telsur/) | 1 | 19 | 2026-11-05 → 2026-11-24 |
 | [Transbank (Webpay)](transbank/) | — | 19 | 2026-03-03 → 2026-08-05 |
 | [Movistar](movistar/) | — | 11 | 2026-04-02 → 2026-09-08 |
 | [TAG Total (Unired)](tag-total/) | 1 | 9 | 2026-11-12 → 2026-11-17 |
