@@ -6,7 +6,7 @@ Desde noviembre de 2026 también usa **páginas falsas de banca** (BancoEstado) 
 
 **Por qué Mirlo:** el mirlo chileno (*Molothrus bonariensis*) es un parásito de nidos: pone sus huevos en nidos ajenos para que otros pájaros los críen. Este actor hace lo mismo: inyecta sus subdominios en zonas DNS de terceros y vive de la infraestructura de otros.
 
-**43** sitios · **1** activos · 2026-11-05 → 2026-11-24
+**44** sitios · **2** activos · 2026-11-05 → 2026-11-25
 
 Marcas suplantadas: [Banco Santander](../../marcas/santander/), [BancoEstado](../../marcas/bancoestado/), [CGE](../../marcas/cge/), [Cencosud](../../marcas/cencosud/), [Falabella](../../marcas/falabella/), [Líder](../../marcas/lider/), [Metrogas](../../marcas/metrogas/), [TAG Total (Unired)](../../marcas/tag-total/), [Telsur (GTD)](../../marcas/telsur/)
 
@@ -15,6 +15,7 @@ Marcas suplantadas: [Banco Santander](../../marcas/santander/), [BancoEstado](..
 
 | Detectado | Dominio | Marca | Tipo | Estado |
 |---|---|---|---|---|
+| 2026-11-25 | `mitelsur[.]gotammaintenance[.]com[.]mx` | Telsur (GTD) | pago de deuda falsa | 🔴 activo |
 | 2026-11-24 | `telsurenlinea2[.]gotammaintenance[.]com[.]mx` | Telsur (GTD) | pago de deuda falsa | caido |
 | 2026-11-24 | `mitelsur[.]inomodul[.]com` | Telsur (GTD) | pago de deuda falsa | caido |
 | 2026-11-22 | `telsurenlinea[.]daremexicali[.]org` | Telsur (GTD) | pago de deuda falsa | caido |

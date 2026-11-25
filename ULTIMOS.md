@@ -4,6 +4,7 @@ URLs desactivadas a propósito (`hxxps`, `[.]`). Para bloquear usa [`feeds/activ
 
 | Detectado | Dominio | Marca | Tipo | Estado |
 |---|---|---|---|---|
+| 2026-11-25 | `mitelsur[.]gotammaintenance[.]com[.]mx` | Telsur (GTD) | pago de deuda falsa | 🔴 activo |
 | 2026-11-24 | `telsurenlinea2[.]gotammaintenance[.]com[.]mx` | Telsur (GTD) | pago de deuda falsa | caido |
 | 2026-11-24 | `mitelsur[.]inomodul[.]com` | Telsur (GTD) | pago de deuda falsa | caido |
 | 2026-11-24 | `enrel[.]life` | Entel | pago de deuda falsa | 🔴 activo |
@@ -53,4 +54,3 @@ URLs desactivadas a propósito (`hxxps`, `[.]`). Para bloquear usa [`feeds/activ
 | 2026-08-24 | `compraraqui[.]store` | BancoEstado | credenciales bancarias | caido |
 | 2026-08-24 | `comprar-aqui[.]shop` | BancoEstado | credenciales bancarias | caido |
 | 2026-08-24 | `compra-qui[.]shop` | BancoEstado | credenciales bancarias | caido |
-| 2026-08-22 | `tu-comercio[.]online` | BancoEstado | credenciales bancarias | caido |

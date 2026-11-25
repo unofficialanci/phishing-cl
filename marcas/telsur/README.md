@@ -1,6 +1,6 @@
 # Telsur (GTD)
 
-**19** sitios de phishing publicados · **0** activos · 2026-11-05 → 2026-11-24
+**20** sitios de phishing publicados · **1** activos · 2026-11-05 → 2026-11-25
 
 - Bloquear: [`activos.txt`](activos.txt)
 - Histórico: [`iocs.csv`](iocs.csv)
@@ -8,6 +8,7 @@
 
 | Detectado | Dominio | Actor | Tipo | Estado |
 |---|---|---|---|---|
+| 2026-11-25 | `mitelsur[.]gotammaintenance[.]com[.]mx` | [UANCI-PH02](../../actores/UANCI-PH02/) | pago de deuda falsa | 🔴 activo |
 | 2026-11-24 | `telsurenlinea2[.]gotammaintenance[.]com[.]mx` | [UANCI-PH02](../../actores/UANCI-PH02/) | pago de deuda falsa | caido |
 | 2026-11-24 | `mitelsur[.]inomodul[.]com` | [UANCI-PH02](../../actores/UANCI-PH02/) | pago de deuda falsa | caido |
 | 2026-11-22 | `telsurenlinea[.]daremexicali[.]org` | [UANCI-PH02](../../actores/UANCI-PH02/) | pago de deuda falsa | caido |
