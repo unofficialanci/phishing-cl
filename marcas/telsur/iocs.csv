@@ -1,5 +1,5 @@
 dominio,url,ip,marca,detalle_marca,actor,tipo,primera_deteccion,estado,publicado,nota
-telsurenlinea2.gotammaintenance.com.mx,https://telsurenlinea2.gotammaintenance.com.mx/,104.194.138.248,Telsur (GTD),Telsur/GTD,UANCI-PH02,pago de deuda falsa,2026-11-24,activo,2026-11-24,subdominio inyectado en la zona DNS de un tercero: NO bloquear el dominio raíz
+telsurenlinea2.gotammaintenance.com.mx,https://telsurenlinea2.gotammaintenance.com.mx/,104.194.138.248,Telsur (GTD),Telsur/GTD,UANCI-PH02,pago de deuda falsa,2026-11-24,caido,2026-11-24,subdominio inyectado en la zona DNS de un tercero: NO bloquear el dominio raíz
 mitelsur.inomodul.com,https://mitelsur.inomodul.com/,104.194.138.248,Telsur (GTD),Telsur/GTD,UANCI-PH02,pago de deuda falsa,2026-11-24,caido,2026-11-24,subdominio inyectado en la zona DNS de un tercero: NO bloquear el dominio raíz
 telsurenlinea.daremexicali.org,https://telsurenlinea.daremexicali.org/,104.194.138.248,Telsur (GTD),Telsur/GTD,UANCI-PH02,pago de deuda falsa,2026-11-22,caido,2026-11-23,subdominio inyectado en la zona DNS de un tercero: NO bloquear el dominio raíz
 tutslur.cdisatelite.com,https://tutslur.cdisatelite.com/,104.194.138.248,Telsur (GTD),Telsur/GTD,UANCI-PH02,pago de deuda falsa,2026-11-18,caido,2026-11-23,subdominio inyectado en la zona DNS de un tercero: NO bloquear el dominio raíz

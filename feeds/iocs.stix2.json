@@ -22,7 +22,7 @@
       "created": "2026-11-24T00:00:00.000Z",
       "modified": "2026-11-24T00:00:00.000Z",
       "name": "Phishing Telsur (GTD): telsurenlinea2.gotammaintenance.com.mx",
-      "description": "Sitio de phishing contra usuarios de Chile (pago de deuda falsa). Estado al exportar: activo.",
+      "description": "Sitio de phishing contra usuarios de Chile (pago de deuda falsa). Estado al exportar: caido.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -310,7 +310,7 @@
       "created": "2026-11-24T00:00:00.000Z",
       "modified": "2026-11-24T00:00:00.000Z",
       "name": "Phishing TAG Total (Unired): tagtotal.elcaporalmx.com",
-      "description": "Sitio de phishing contra usuarios de Chile (pago de deuda falsa). Estado al exportar: activo.",
+      "description": "Sitio de phishing contra usuarios de Chile (pago de deuda falsa). Estado al exportar: caido.",
       "indicator_types": [
         "malicious-activity"
       ],
