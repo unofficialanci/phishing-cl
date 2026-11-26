@@ -1,0 +1,2 @@
+dominio,url,ip,marca,detalle_marca,actor,tipo,primera_deteccion,estado,publicado,nota
+bciiverifica.daremexicali.org,https://bciiverifica.daremexicali.org/,66.228.61.235,Bci,,UANCI-PH02,credenciales bancarias y tarjeta,2026-11-23,activo,2026-11-26,subdominio inyectado en la zona DNS de un tercero: NO bloquear el dominio raíz

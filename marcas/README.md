@@ -15,6 +15,7 @@ Cada carpeta tiene un `activos.txt` (para bloquear) y un `iocs.csv` (histórico)
 | [Metrogas](metrogas/) | — | 3 | — |
 | [Banco Santander](santander/) | — | 2 | — |
 | [Banco de Chile](banco-de-chile/) | — | 1 | 2026-09-22 |
+| [Bci](bci/) | 1 | 1 | 2026-11-23 |
 | [CGE](cge/) | — | 1 | — |
 | [Cencosud](cencosud/) | — | 1 | 2026-11-12 |
 | [Líder](lider/) | — | 1 | — |
