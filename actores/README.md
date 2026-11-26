@@ -5,5 +5,5 @@ Un actor es un mismo operador (kit, infraestructura y forma de operar) aunque ca
 | Actor | Marcas | Activos | Total | Periodo |
 |---|---|---|---|---|
 | [UANCI-PH01 · Tricahue](UANCI-PH01/) | Banco de Chile, BancoEstado, Entel, Movistar, Tiendas falsas (sin marca), Transbank (Webpay), WOM | 4 | 63 | 2026-03-03 → 2026-11-21 |
-| [UANCI-PH02 · Mirlo](UANCI-PH02/) | Banco Santander, BancoEstado, Bci, CGE, Cencosud, Falabella, Líder, Metrogas, TAG Total (Unired), Telsur (GTD) | 3 | 45 | 2026-11-05 → 2026-11-25 |
+| [UANCI-PH02 · Mirlo](UANCI-PH02/) | Banco Santander, Banco de Chile, BancoEstado, Bci, CGE, Cencosud, Falabella, Líder, Metrogas, TAG Total (Unired), Telsur (GTD) | 4 | 46 | 2026-11-05 → 2026-11-25 |
 | [Sin atribuir](sin-atribuir/) | Entel | 2 | 2 | 2026-11-24 |

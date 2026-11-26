@@ -14,7 +14,7 @@ Cada carpeta tiene un `activos.txt` (para bloquear) y un `iocs.csv` (histórico)
 | [Tiendas falsas (sin marca)](tiendas-falsas/) | 1 | 6 | 2026-05-29 → 2026-10-13 |
 | [Metrogas](metrogas/) | — | 3 | — |
 | [Banco Santander](santander/) | — | 2 | — |
-| [Banco de Chile](banco-de-chile/) | — | 1 | 2026-09-22 |
+| [Banco de Chile](banco-de-chile/) | 1 | 2 | 2026-09-22 → 2026-11-24 |
 | [Bci](bci/) | 1 | 1 | 2026-11-23 |
 | [CGE](cge/) | — | 1 | — |
 | [Cencosud](cencosud/) | — | 1 | 2026-11-12 |
