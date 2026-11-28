@@ -1,3 +1,2 @@
 # Dominios de phishing ACTIVOS al exportar — Bci. TLP:CLEAR · CC BY 4.0.
 # Un dominio por linea, sin defang, para DNS/proxy/firewall.
-bciiverifica.daremexicali.org

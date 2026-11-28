@@ -1,3 +1,3 @@
 dominio,url,ip,marca,detalle_marca,actor,tipo,primera_deteccion,estado,publicado,nota
-bchilesur.divorcioconamor.com,https://bchilesur.divorcioconamor.com/,66.228.61.235,Banco de Chile,,UANCI-PH02,credenciales bancarias y tarjeta,2026-11-24,activo,2026-11-26,subdominio inyectado en la zona DNS de un tercero: NO bloquear el dominio raíz
+bchilesur.divorcioconamor.com,https://bchilesur.divorcioconamor.com/,66.228.61.235,Banco de Chile,,UANCI-PH02,credenciales bancarias y tarjeta,2026-11-24,caido,2026-11-26,subdominio inyectado en la zona DNS de un tercero: NO bloquear el dominio raíz
 webpay-comercio.online,https://webpay-comercio.online/b-de-chile-clave-equivocada/,66.29.148.186,Banco de Chile,Banco de Chile / Webpay,UANCI-PH01,credenciales bancarias,2026-09-22,caido,2026-11-23,campaña con operador en vivo (embudo telco → Compraquí/Webpay)

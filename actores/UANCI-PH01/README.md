@@ -15,7 +15,7 @@ Usa dominios desechables (.online, .shop, .store, .site, y .cl parecidos a marca
 
 **Por qué Tricahue:** el loro tricahue es bullicioso y "habla". Este actor conversa con la víctima en tiempo real: un operador humano la guía hasta sacarle la clave y el segundo factor.
 
-**63** sitios · **4** activos · 2026-03-03 → 2026-11-21
+**63** sitios · **4** activos · 2026-03-03 → 2026-11-27
 
 Marcas suplantadas: [Banco de Chile](../../marcas/banco-de-chile/), [BancoEstado](../../marcas/bancoestado/), [Entel](../../marcas/entel/), [Movistar](../../marcas/movistar/), [Tiendas falsas (sin marca)](../../marcas/tiendas-falsas/), [Transbank (Webpay)](../../marcas/transbank/), [WOM](../../marcas/wom/)
 
@@ -24,7 +24,7 @@ Marcas suplantadas: [Banco de Chile](../../marcas/banco-de-chile/), [BancoEstado
 
 | Detectado | Dominio | Marca | Tipo | Estado |
 |---|---|---|---|---|
-| 2026-11-21 | `compraraqui[.]shop` | BancoEstado | credenciales bancarias | 🔴 activo |
+| 2026-11-27 | `compraraqui[.]shop` | BancoEstado | credenciales bancarias | 🔴 activo |
 | 2026-11-19 | `comprameaqui[.]online` | BancoEstado | credenciales bancarias | caido |
 | 2026-11-08 | `portal-entel[.]online` | Entel | datos personales y pago | 🔴 activo |
 | 2026-11-05 | `aquicompre[.]store` | BancoEstado | credenciales bancarias | caido |

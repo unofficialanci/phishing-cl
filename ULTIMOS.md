@@ -4,16 +4,16 @@ URLs desactivadas a propósito (`hxxps`, `[.]`). Para bloquear usa [`feeds/activ
 
 | Detectado | Dominio | Marca | Tipo | Estado |
 |---|---|---|---|---|
+| 2026-11-27 | `compraraqui[.]shop` | BancoEstado | credenciales bancarias | 🔴 activo |
 | 2026-11-25 | `mitelsur[.]gotammaintenance[.]com[.]mx` | Telsur (GTD) | pago de deuda falsa | 🔴 activo |
 | 2026-11-24 | `telsurenlinea2[.]gotammaintenance[.]com[.]mx` | Telsur (GTD) | pago de deuda falsa | caido |
 | 2026-11-24 | `mitelsur[.]inomodul[.]com` | Telsur (GTD) | pago de deuda falsa | caido |
 | 2026-11-24 | `enrel[.]life` | Entel | pago de deuda falsa | 🔴 activo |
 | 2026-11-24 | `consulta-de-pagos[.]replit[.]app` | Entel | pago de deuda falsa | 🔴 activo |
-| 2026-11-24 | `bchilesur[.]divorcioconamor[.]com` | Banco de Chile | credenciales bancarias y tarjeta | 🔴 activo |
-| 2026-11-23 | `bciiverifica[.]daremexicali[.]org` | Bci | credenciales bancarias y tarjeta | 🔴 activo |
+| 2026-11-24 | `bchilesur[.]divorcioconamor[.]com` | Banco de Chile | credenciales bancarias y tarjeta | caido |
+| 2026-11-23 | `bciiverifica[.]daremexicali[.]org` | Bci | credenciales bancarias y tarjeta | caido |
 | 2026-11-22 | `telsurenlinea[.]daremexicali[.]org` | Telsur (GTD) | pago de deuda falsa | caido |
-| 2026-11-21 | `estadoenlinea[.]dizukmex[.]com[.]mx` | BancoEstado | credenciales bancarias y tarjeta | 🔴 activo |
-| 2026-11-21 | `compraraqui[.]shop` | BancoEstado | credenciales bancarias | 🔴 activo |
+| 2026-11-21 | `estadoenlinea[.]dizukmex[.]com[.]mx` | BancoEstado | credenciales bancarias y tarjeta | caido |
 | 2026-11-19 | `comprameaqui[.]online` | BancoEstado | credenciales bancarias | caido |
 | 2026-11-18 | `tutslur[.]cdisatelite[.]com` | Telsur (GTD) | pago de deuda falsa | caido |
 | 2026-11-18 | `telsurechile[.]cecoban[.]com` | Telsur (GTD) | pago de deuda falsa | caido |

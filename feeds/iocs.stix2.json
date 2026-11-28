@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--b876ea53-932d-57e2-9917-54f0b96edd32",
+  "id": "bundle--186ad355-aa4a-59a5-8b82-a33aaa3bee20",
   "objects": [
     {
       "type": "identity",
@@ -10,6 +10,30 @@
       "modified": "2026-11-22T00:00:00.000Z",
       "name": "phishing-cl",
       "identity_class": "group",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8b14500e-6f42-5a3d-9ee6-3133373fa1e0",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-23T00:00:00.000Z",
+      "modified": "2026-11-23T00:00:00.000Z",
+      "name": "Phishing BancoEstado: compraraqui.shop",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: activo.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'compraraqui.shop']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-27T00:00:00.000Z",
+      "labels": [
+        "phishing",
+        "chile",
+        "bancoestado"
+      ],
       "object_marking_refs": [
         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
       ]
@@ -142,7 +166,7 @@
       "created": "2026-11-26T00:00:00.000Z",
       "modified": "2026-11-26T00:00:00.000Z",
       "name": "Phishing Banco de Chile: bchilesur.divorcioconamor.com",
-      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias y tarjeta). Estado al exportar: activo.",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias y tarjeta). Estado al exportar: caido.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -166,7 +190,7 @@
       "created": "2026-11-26T00:00:00.000Z",
       "modified": "2026-11-26T00:00:00.000Z",
       "name": "Phishing Bci: bciiverifica.daremexicali.org",
-      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias y tarjeta). Estado al exportar: activo.",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias y tarjeta). Estado al exportar: caido.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -214,35 +238,11 @@
       "created": "2026-11-23T00:00:00.000Z",
       "modified": "2026-11-23T00:00:00.000Z",
       "name": "Phishing BancoEstado: estadoenlinea.dizukmex.com.mx",
-      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias y tarjeta). Estado al exportar: activo.",
+      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias y tarjeta). Estado al exportar: caido.",
       "indicator_types": [
         "malicious-activity"
       ],
       "pattern": "[domain-name:value = 'estadoenlinea.dizukmex.com.mx']",
-      "pattern_type": "stix",
-      "valid_from": "2026-11-21T00:00:00.000Z",
-      "labels": [
-        "phishing",
-        "chile",
-        "bancoestado"
-      ],
-      "object_marking_refs": [
-        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
-      ]
-    },
-    {
-      "type": "indicator",
-      "spec_version": "2.1",
-      "id": "indicator--8b14500e-6f42-5a3d-9ee6-3133373fa1e0",
-      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
-      "created": "2026-11-23T00:00:00.000Z",
-      "modified": "2026-11-23T00:00:00.000Z",
-      "name": "Phishing BancoEstado: compraraqui.shop",
-      "description": "Sitio de phishing contra usuarios de Chile (credenciales bancarias). Estado al exportar: activo.",
-      "indicator_types": [
-        "malicious-activity"
-      ],
-      "pattern": "[domain-name:value = 'compraraqui.shop']",
       "pattern_type": "stix",
       "valid_from": "2026-11-21T00:00:00.000Z",
       "labels": [
@@ -2717,6 +2717,20 @@
     {
       "type": "relationship",
       "spec_version": "2.1",
+      "id": "relationship--b56b73e3-8ffc-5083-97cb-78e4d7d685a5",
+      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
+      "created": "2026-11-23T00:00:00.000Z",
+      "modified": "2026-11-23T00:00:00.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--8b14500e-6f42-5a3d-9ee6-3133373fa1e0",
+      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
       "id": "relationship--c2a90490-40fd-5170-a442-49da699f7eed",
       "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
       "created": "2026-11-25T00:00:00.000Z",
@@ -2808,20 +2822,6 @@
       "relationship_type": "indicates",
       "source_ref": "indicator--7f645777-6817-5800-bb41-2647080b492b",
       "target_ref": "intrusion-set--4fe86dce-ec1d-5504-b48b-eb0339d6b373",
-      "object_marking_refs": [
-        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
-      ]
-    },
-    {
-      "type": "relationship",
-      "spec_version": "2.1",
-      "id": "relationship--b56b73e3-8ffc-5083-97cb-78e4d7d685a5",
-      "created_by_ref": "identity--5f9b7a95-1bf7-52f6-a9ef-da06110dc06a",
-      "created": "2026-11-23T00:00:00.000Z",
-      "modified": "2026-11-23T00:00:00.000Z",
-      "relationship_type": "indicates",
-      "source_ref": "indicator--8b14500e-6f42-5a3d-9ee6-3133373fa1e0",
-      "target_ref": "intrusion-set--9ec9b0e2-bca6-5a78-a001-5c909d8f906e",
       "object_marking_refs": [
         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
       ]

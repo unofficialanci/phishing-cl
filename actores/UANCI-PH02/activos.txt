@@ -1,6 +1,3 @@
 # Dominios de phishing ACTIVOS al exportar — UANCI-PH02 · Mirlo. TLP:CLEAR · CC BY 4.0.
 # Un dominio por linea, sin defang, para DNS/proxy/firewall.
-bchilesur.divorcioconamor.com
-bciiverifica.daremexicali.org
-estadoenlinea.dizukmex.com.mx
 mitelsur.gotammaintenance.com.mx

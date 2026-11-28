@@ -1,6 +1,6 @@
 # BancoEstado
 
-**20** sitios de phishing publicados · **2** activos · 2026-03-06 → 2026-11-21
+**20** sitios de phishing publicados · **1** activos · 2026-03-06 → 2026-11-27
 
 - Bloquear: [`activos.txt`](activos.txt)
 - Histórico: [`iocs.csv`](iocs.csv)
@@ -8,8 +8,8 @@
 
 | Detectado | Dominio | Actor | Tipo | Estado |
 |---|---|---|---|---|
-| 2026-11-21 | `estadoenlinea[.]dizukmex[.]com[.]mx` | [UANCI-PH02](../../actores/UANCI-PH02/) | credenciales bancarias y tarjeta | 🔴 activo |
-| 2026-11-21 | `compraraqui[.]shop` | [UANCI-PH01](../../actores/UANCI-PH01/) | credenciales bancarias | 🔴 activo |
+| 2026-11-27 | `compraraqui[.]shop` | [UANCI-PH01](../../actores/UANCI-PH01/) | credenciales bancarias | 🔴 activo |
+| 2026-11-21 | `estadoenlinea[.]dizukmex[.]com[.]mx` | [UANCI-PH02](../../actores/UANCI-PH02/) | credenciales bancarias y tarjeta | caido |
 | 2026-11-19 | `comprameaqui[.]online` | [UANCI-PH01](../../actores/UANCI-PH01/) | credenciales bancarias | caido |
 | 2026-11-05 | `aquicompre[.]store` | [UANCI-PH01](../../actores/UANCI-PH01/) | credenciales bancarias | caido |
 | 2026-11-04 | `compremeaqui[.]shop` | [UANCI-PH01](../../actores/UANCI-PH01/) | credenciales bancarias | caido |

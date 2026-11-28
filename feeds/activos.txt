@@ -1,11 +1,8 @@
 # Dominios de phishing ACTIVOS al exportar — todas las marcas. TLP:CLEAR · CC BY 4.0.
 # Un dominio por linea, sin defang, para DNS/proxy/firewall.
-bchilesur.divorcioconamor.com
-bciiverifica.daremexicali.org
 compraraqui.shop
 consulta-de-pagos.replit.app
 enrel.life
-estadoenlinea.dizukmex.com.mx
 mitelsur.gotammaintenance.com.mx
 portal-entel.online
 recargas-wom.online
